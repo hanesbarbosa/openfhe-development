@@ -1,7 +1,7 @@
 Security Notes for Homomorphic Encryption
 ==================================================
 
-All homomorphic encryption schemes implemented in OpenFHE are IND-CPA secure, and hence are expected to be used under the honest-but-curios (a.k.a., semi-honest) model. In this model, the adversary cannot corrupt/tamper with ciphertexts (and perform related active attacks) but can only use the API of OpenFHE to perform valid operations.
+All homomorphic encryption schemes implemented in OpenFHE are IND-CPA secure, and hence are expected to be used under the honest-but-curious (a.k.a., semi-honest) model. In this model, the adversary cannot corrupt/tamper with ciphertexts (and perform related active attacks) but can only use the API of OpenFHE to perform valid operations.
 
 Notes specific to the CKKS scheme
 -----------------------------------
